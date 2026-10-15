@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# AWS credentials and secrets
+.aws/
+.env
+.env.*
+credentials
+credentials.txt
+*.pem
+*.key
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Generated ML models
+*.pkl
+*.joblib
+
+# Temporary files and logs
+*.log
+.DS_Store
+.vscode/
+
+# Generated reports
+reports/
